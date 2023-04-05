@@ -11,7 +11,7 @@ For both classifiers, SimBA (SimBA-UW-tf-dev = 1.32.2) was used and the followin
 
 
 
-Interaction with object-based stimuli was operationally defined as frames where the nose is within 2cm of the object, while looking at and/or chewing the stimuli for a duration greater than 50ms. We trained the object classifier on 28,586 frames on human-annotated interaction. The video below depicts pose-estimation and classification predictions on a test (not included in the trainingset) video. The model and assessment files can be found within the "SImBA_object_classifier_information" directory, and targets_inserted csv files (DLC tracking, feature engineering, ROI information, human annotation) can be found at the linked Google Drive. The full project folder is available upon request. (https://drive.google.com/drive/folders/1qIgqLmDf1Q_D6bEagawN5GRccw3Ngcu5?usp=share_link)
+Interaction with object-based stimuli was operationally defined as frames where the nose is within 2cm of the object, while looking at and/or chewing the stimuli for a duration greater than 50ms. We trained the object classifier on 28,586 frames on human-annotated interaction. The video below depicts pose-estimation and classification predictions on a test (not included in the trainingset) video. The model and assessment files can be found within the "SimBA_object_classifier_information" directory, and targets_inserted csv files (DLC tracking, feature engineering, ROI information, human annotation) can be found at the linked Google Drive. The full project folder is available upon request. (https://drive.google.com/drive/folders/1qIgqLmDf1Q_D6bEagawN5GRccw3Ngcu5?usp=share_link)
 
 
 
