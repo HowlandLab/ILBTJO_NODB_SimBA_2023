@@ -9,12 +9,17 @@ For both classifiers, we generated pose-estimation data using a single DLC netwo
 
 For both classifiers, SimBA (SimBA-UW-tf-dev = 1.32.2) was used and the following hyperparameter set was used for classifier training (n_estimators = 200, RF_criterion = entropy, RF_max_features = sqrt, RF_min_sample leaf = 2). We created six ROIs, where the origin of each circular ROI was placed at the center of stimuli, and extended ~2cm beyond the outermost edge of stimuli. n_estimators = 200, RF_criterion = entropy, RF_max_features = sqrt, RF_min_sample leaf = 2). We slightly deviated from the standard SimBA feature engineering approach by removing ROI-related features called “zone_cumulative_percent” and “zone_cumulative_time”. These features increase the prediction probability of a true class based on animal’s preferentially spending time in a defined ROI. While these features may be useful for predicting behaviors that only include in specific regions (e.g., rat dams retrieving pups from a nest), inclusion of these features in our project would bias predictions unequally between the six stimuli positions.
 
-
-Interaction with object-based stimuli was operationally defined as frames where the nose is within 2cm of the object, while looking at and/or chewing the stimuli for a duration greater than 50ms. We trained the object classifier on 28,586 frames on human-annotated interaction. The video below depicts pose-estimation and classification predictions on a test (not included in the trainingset) video. The model and assessment files can be found within the "" directory, and targets_inserted csv files (DLC tracking, feature engineering, human annotation) can be found within the linked Google Drive (https://drive.google.com/drive/folders/1qIgqLmDf1Q_D6bEagawN5GRccw3Ngcu5?usp=share_link).
-
-
+Interaction with object-based stimuli was operationally defined as frames where the nose is within 2cm of the object, while looking at and/or chewing the stimuli for a duration greater than 50ms. We trained the object classifier on 28,586 frames on human-annotated interaction. The video below depicts pose-estimation and classification predictions on a test (not included in the trainingset) video. The model and assessment files can be found within the "SImBA_object_classifier_information" directory, and targets_inserted csv files (DLC tracking, feature engineering, ROI information, human annotation) can be found at the linked Google Drive. The full project folder is available upon request. (https://drive.google.com/drive/folders/1qIgqLmDf1Q_D6bEagawN5GRccw3Ngcu5?usp=share_link)
 
 https://user-images.githubusercontent.com/76128217/230168849-9ed58960-9e00-4592-a809-acc928f14c2d.mp4
+
+Interaction with odor-based stimuli was operationally defined as framed where the rats’ nose is within 2cm, and within 2cm from the top of the odor jar, looking at and/or chewing the stimuli for a duration greater than 50ms. We trained the odor classifier on 32,872 frames on human-annotated interaction. The video below depicts pose-estimation and classification predictions on a test (not included in the trainingset) video. The model and assessment files can be found within the "SImBA_odor_classifier_information" directory, and targets_inserted csv files (DLC tracking, feature engineering, ROI information, human annotation) can be found at the linked Google Drive. The full project folder is available upon request. (https://drive.google.com/drive/folders/1fMCYBnoaJzRAkUqzPvIPOrlARXW2j1Ae?usp=share_link)
+
+https://user-images.githubusercontent.com/76128217/230211372-9351adaf-e6df-4bf0-9993-fef82736455b.mp4
+
+
+
+
 
 
 
