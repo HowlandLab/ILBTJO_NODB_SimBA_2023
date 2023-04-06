@@ -35,7 +35,7 @@ https://user-images.githubusercontent.com/76128217/230211372-9351adaf-e6df-4bf0-
 
 
 
-For a detailed summary of findings, we direct readers to the manuscript preprint and supplemental material; however, we found that behavioural classifications were reliable on the majority of our videoset (~300 5min videos), but manual checking and replacement of automated predictions with stopwatch scoring (~30% videos) was needed. For clarification on experimental procedures or classifier training, please direct questions to Timothy Onofrychuk (tim.onofrychuk@usask.ca).
+For a detailed summary of findings, we direct readers to the manuscript preprint and supplemental material; however, we found that behavioural classifications were reliable on the majority of our videoset (~300 5min videos), but manual checking and replacement of automated predictions with stopwatch scoring (~30% videos) was needed. For clarification on experimental procedures or classifier training, please direct questions to the cooresponding author (john.howland@usask.ca).
 
 
 
