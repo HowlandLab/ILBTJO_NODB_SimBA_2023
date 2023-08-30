@@ -35,7 +35,21 @@ https://user-images.githubusercontent.com/76128217/230211372-9351adaf-e6df-4bf0-
 
 
 
-For a detailed summary of findings, we direct readers to the manuscript preprint and supplemental material; however, we found that behavioural classifications were reliable on the majority of our videoset (~300 5min videos), but manual checking and replacement of automated predictions with stopwatch scoring (~30% videos) was needed. For clarification on experimental procedures or classifier training, please direct questions to the cooresponding author (john.howland@usask.ca).
+For a detailed summary of findings, we direct readers to the manuscript preprint and supplemental material; however, we found that behavioural classifications were reliable on the majority of our videoset (~300 5min videos), but manual checking and replacement of automated predictions with stopwatch scoring (~30% videos) was needed. Below are video examples of suboptimal behavioural predictions, where output data was replaced by human stopwatch scoring for the final analysis. Determination of prediction quality was done systematically with a 5-tiered verification rank system.
+
+Object-based misclassification:
+
+https://github.com/HowlandLab/ILBTJO_NODB_SimBA_2023/assets/76128217/8386fdb7-9c95-476b-8746-147a1cd3d701
+
+Odor-based misclassification:
+
+https://github.com/HowlandLab/ILBTJO_NODB_SimBA_2023/assets/76128217/09f6e394-77bd-44ba-bcee-c926ab5da8ee
+
+5-tiered verification rank table:
+
+<img width="548" alt="Screenshot 2023-08-30 at 11 32 33 AM" src="https://github.com/HowlandLab/ILBTJO_NODB_SimBA_2023/assets/76128217/74e138a1-0be8-45e3-a018-b467996a6373">
+
+For clarification on experimental procedures or classifier training, please direct questions to the cooresponding author (john.howland@usask.ca).
 
 
 
